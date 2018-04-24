@@ -24,11 +24,7 @@
       "exclude": "**/node_modules/**"
     }
   ],
-  "test": {
-    "karma": {
-      "config": "./karma.conf.js"
-    }
-  },
+  "test": {},
   "apps": [
     {
       "name": "site",
@@ -54,6 +50,13 @@
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       },
+      "tags": []
+    },
+    {
+      "name": "models",
+      "root": "libs/models/src",
+      "test": "../../../test.js",
+      "appRoot": "",
       "tags": []
     },
     {

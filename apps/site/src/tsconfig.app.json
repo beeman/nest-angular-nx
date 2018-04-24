@@ -9,6 +9,9 @@
     /* add all lazy-loaded libraries here: "../../../libs/my-lib/index.ts" */
   ],
   "exclude": [
+    "../../api/**/*",
+    "../../../node_modules/@nestjs/**/*",
+    "../../../node_modules/@types/jest/**/*",
     "**/*.spec.ts"
   ]
 }
