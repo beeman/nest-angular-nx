@@ -53,8 +53,22 @@
       "tags": []
     },
     {
+      "name": "api-todo",
+      "root": "libs/api-todo/src",
+      "test": "../../../test.js",
+      "appRoot": "",
+      "tags": []
+    },
+    {
       "name": "models",
       "root": "libs/models/src",
+      "test": "../../../test.js",
+      "appRoot": "",
+      "tags": []
+    },
+    {
+      "name": "site-todo",
+      "root": "libs/site-todo/src",
       "test": "../../../test.js",
       "appRoot": "",
       "tags": []

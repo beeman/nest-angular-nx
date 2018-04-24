@@ -6,7 +6,7 @@ import { TodoModel } from '@nest-angular-nx/models';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get()
+  @Get('/api/todos')
   root(): TodoModel[] {
     return this.appService.root();
   }
