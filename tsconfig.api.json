@@ -9,8 +9,7 @@
     "allowSyntheticDefaultImports": true,
     "target": "es6",
     "allowJs": true,
-    "outDir": "./dist/apps/api",
-    "baseUrl": "./apps/api/src"
+    "outDir": "./dist/apps/api"
   },
   "include": [
     "apps/api/src/**/*"

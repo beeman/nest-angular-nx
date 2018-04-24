@@ -1,1 +1,1 @@
-export { ApiTodo } from './src/api-todo';
+export { ApiTodoModule } from './src/api-todo.module';

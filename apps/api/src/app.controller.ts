@@ -1,13 +1,10 @@
-import { Get, Controller } from '@nestjs/common';
-import { AppService } from './app.service';
-import { TodoModel } from '@nest-angular-nx/models';
+import { Controller, Get } from '@nestjs/common';
 
 @Controller()
 export class AppController {
-  constructor(private readonly appService: AppService) {}
 
-  @Get('/api/todos')
-  root(): TodoModel[] {
-    return this.appService.root();
+  @Get('/')
+  root(): string{
+    return '/api/todos'
   }
 }

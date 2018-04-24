@@ -1,10 +1,13 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { ApiTodoModule } from '@nest-angular-nx/api-todo';
 
 @Module({
-  imports: [],
-  controllers: [AppController],
-  providers: [ AppService ]
+  imports: [
+    ApiTodoModule
+  ],
+  controllers: [
+    AppController
+  ],
 })
 export class AppModule {}
